@@ -1,0 +1,683 @@
+/* FONTS
+*******************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic);
+
+
+/* GENERAL STYLE RULES
+*******************************************/
+
+html,
+body {
+	box-sizing; border-box;
+}
+
+p {
+	font-family: "Lora", "Georgia", serif;
+	font-size: 1.1em;
+	font-style: italic;
+	line-height: 1.75;
+	font-weight: 400;
+	font-size: 1.25em;
+}
+
+h4 {
+	font-family: "Open Sans Condensed", "Century Schoolbook", Georgia, serif;
+}
+
+/* CONTAINER RULES 
+*******************************************/
+
+.container {
+	width: 95%;
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+.flex-container {
+	-webkit-display: flex;
+			display: flex;
+	-webkit-flex-direction: column;
+			flex-direction: column;			
+	-webkit-align-items: center;
+			align-items: center;
+	-webkit-align-content: center;
+			align-content: center;
+	margin: auto;		
+	width: 95%;
+	max-width: 1000px;
+}
+
+
+.img-responsive {
+	width: 50%;
+	max-width: 100%;
+	height: 50%;
+	display: block;
+}
+
+.img-container {
+	-webkit-display: flex;
+			display: flex;
+	-webkit-flex-direction: row;
+			flex-direction: row;
+	-webkit-justify-content: center;
+			justify-content: center;
+}
+
+
+/* NAVIGATION STYLE RULES
+*******************************************/
+
+header {
+	padding: 5px 0 20px;
+	width: 100%;
+	box-shadow: 0px 5px 3px rgba(0,0,0,.3);
+	margin-bottom: 0;
+}
+
+.header-index {
+	background: #222 url('../img/madison-2.jpg') no-repeat top;
+	background-size: cover;
+}
+
+.header-ceremony {
+	background: #222 url('../img/madison-1.jpg') no-repeat top;
+	background-size: cover;
+}
+
+.header-reception {
+	background: #222 url('../img/reception_header2.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.header-hotels {
+	background: #222 url('../img/hampton-1.2.jpg') no-repeat center left;
+	background-size: cover;
+}
+
+.header-registry {
+	background: #222 url('../img/madison-3b.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.Playfair-header {
+	font-family: "Playfair Display", Georgia, serif;
+	text-transform: none;
+}
+
+#nav-bar {
+	width: 100%;
+}
+
+.nav-container {
+	text-align: center;
+}
+
+.logo-a {
+	text-decoration: none;
+}
+
+.logo-sm {
+	font: 700 2.25em "Open Sans Condensed", "Century Gothic", Helvetica, Arial, sans-serif;
+	color: #FFF;
+	letter-spacing: -.75px;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-shadow: 0 1px 1px #222;
+}
+
+.logo-sm span {
+	font-family: "Playfair Display", "Baskerville", "Century Schoolbook", serif;
+	font-weight: 400;
+	font-style: italic;
+	padding: 0 3px;
+	font-size: 2.75rem;
+
+}
+
+.logo-md {
+	display: none;
+}
+nav {
+	padding-bottom: 50px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+nav ul li a {
+	display: block;
+	padding: 12px;
+	border: 1px solid #FFF;
+	text-decoration: none;
+	color: #FFF;
+	border-radius: 4px;
+	font: 400 1.35em "Open Sans Condensed", sans-serif;
+	text-transform: uppercase;
+/*	font-style: italic;*/
+}
+
+nav ul li:nth-child(-n+3) {
+	margin-bottom: 10px;
+}
+
+/* #HERO STYLE RULES
+*******************************************/
+#hero {
+	padding: 40px 0 75px;
+}
+#hero h1 {
+	font-size: 3.75em;
+	color: #FFF;
+	font-family: "Open Sans Condensed", sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: .75;
+	margin: 0 auto;
+	letter-spacing: -2px;
+	text-shadow: 0 1px 1px #222;
+}
+
+.hero-headline-index,
+.hero-headline-ceremony {
+	padding-bottom: 24px;
+}
+
+.hero-headline-index sup {
+	font-size: 24px;
+	text-transform: none;
+}
+
+.hero-headline-index span {
+	font-family: "Playfair Display", serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6em;
+}
+
+.hero-desc {
+	color: #FFF;
+	font-weight: 400;
+	margin: 0 auto 0;
+	font-size: 1.1em;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
+
+.hero-desc span {
+	color: #806A94;
+	font-weight: 300;
+	padding: 0;
+	font-size: 1.35em;
+}
+
+.caret {
+	padding: 0;
+	margin: 0;
+	width: 30%;
+	max-width: 90px;
+}
+
+.half-rule {
+	border: 1px solid #806A94;
+	width: 65%;
+	max-width: 400px;
+	margin: 3px auto;
+}
+
+
+
+/* .SECTION STYLE RULES
+*******************************************/
+.content-white {
+	color: #333;
+/*	box-shadow: 0px 5px 3px rgba(0,0,0,.3);*/
+}
+
+.content-purple {
+	color: #FFF;
+	background: #806A94;
+}
+
+.content-black {
+	color: #FFF;
+	background: #333;
+}
+
+.icon-container {
+	-webkit-display: flex;
+			display: flex;
+	-webkit-flex-direction: row;
+			flex-direction: row;	
+	-webkit-justify-content: center;
+			justify-content: center;				
+}
+
+.ghost-btn {
+	width: 90%;
+	margin-bottom: 0;
+	max-width: 400px;
+	background: rgba(255,255,255,0.0);
+	border: 1px solid;
+	padding: 10px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	font: 300  1em "Open Sans Condensed", "Century Gothic", Helvetica, Arial, sans-serif;
+	-webkit-transition: .4s ease;
+			transition: .4s ease;
+
+}
+
+button:focus {
+	outline: 0;
+}
+
+.ghost-btn-white {
+	color: #333;
+	border-color: #333;
+}
+
+.ghost-btn-black {
+	color: #FFF;
+	border-color: #FFF;
+}
+
+
+
+/* HOTEL PAGE STYLE RULES
+*******************************************/
+.hotel-info {
+	display: flex;
+	flex-direction: column;
+/*	max-width: 1000px;*/
+}
+
+.hotel-logo-sm,
+.hotel-logo-lg {
+	width: 33.3333333%;
+}
+
+.hotel-logo-sm {
+	max-width: 250px;
+	margin-top: 10px;
+}
+
+.hotel-logo-lg{
+	display: none;
+}
+
+.hotel-logo-concourse {
+	box-shadow: 0 3px 3px rgba(0,0,0,.4);
+	border-radius: 2px;
+}
+
+.sec-1 {
+	color: #222;
+}
+
+.sec-2 {
+	background: #806A94;
+	color: #FFF;
+}
+
+.sec {
+	padding: 40px 0;
+	text-align: center;		
+}
+
+.sec h3 {
+	text-transform: uppercase;
+/*	border: 1px solid black;*/
+	font-family: "Open Sans Condensed", "Century Gothic", Helvetica, Arial, sans-serif;
+	font-size: 2em;
+	line-height: 1;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.sec p {
+	margin-top: 10px;
+}
+
+
+/* END HOTEL PAGE STYLE RULES
+*******************************************/
+
+
+
+/* FOOTER STYLE RULES
+*******************************************/
+
+footer {
+	background: #333;
+	padding: 10px 2%;
+	text-align: center;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+footer a {
+	font-size: .85rem;
+}
+
+/* CLEARFIX 
+***********************************************/
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/* MEDIA QUERY BREAKPOINT STYLE RULES
+***********************************************/
+
+/* Min-Width: 360px ***************************/
+
+	/* HEADER & NAV STYLES ********************/
+
+		@media screen and (min-width: 360px) {
+			.logo-sm {
+				font-size: 2.85em;
+			}
+
+			.ghost-btn {
+				font-size: 1.35em;
+			}
+		}
+
+
+
+/* Min-Width: 550px ***************************/
+
+		@media screen and (min-width: 550px) {
+
+		/* HEADER & NAV STYLES ********************/
+
+			.logo-sm {
+				font-size: 1.75em;
+				float: left;
+				margin-top: 0;
+				padding: 0;
+				text-shadow: 0 1px 1px #222;
+			}
+
+			.logo-sm span {
+				font-size: 1.75rem;
+			}
+
+			#nav-bar {
+				position: fixed;
+				padding: 5px 0;
+				top: 0;
+				left: 0;
+				z-index: 1000;
+				background: rgba(51,51,51,.6);
+				height: 50px;
+				transition: background .4s ease;
+			}
+
+			.nav-container {
+				margin-top: 4px;
+			}
+
+			nav {
+				float: right;
+				margin-top: 0px;
+			}
+
+			nav ul li {
+				display: inline-block;
+			}
+
+			nav ul li a {
+				font-size: .9rem;
+				padding: 10px 10px 5px;
+				border-radius: 0;
+				border: none;
+				font-weight: 300;
+				border-bottom: 2px solid transparent;
+				transition: border .4s ease-in-out;
+			}
+
+			nav ul li:nth-child(-n+3) {
+				margin-right: 3px;
+			}
+
+			nav ul li a:hover,
+			nav ul li a.active {
+				border-bottom: #806A94 2px solid;
+				transition: border .4s ease-in-out;
+			}
+
+			header {
+				padding: 180px 0 50px;
+			}
+
+			/* HERO STYLES ********************/
+
+			header {
+				transition: all .6s ease;
+			}
+
+			#hero h1 {
+				font-size: 5em;
+			}
+
+			#hero h1 span sup{
+				font-size: 44px;
+				margin-right: 3px;
+			}
+
+			.hero-desc {
+				font-size: 1.6em;
+			}
+
+			/* SECTION STYLES ********************/
+
+
+/* Min-Width: 700px ***************************/
+
+	@media screen and (min-width: 700px) {
+		
+
+		/*HERO STYLES ******************/
+
+		.hero-desc {
+			font-size: 2.05em;
+		}
+
+		/*HOTELS INFORMATION ******************/
+
+		.hotel-logo-lg {
+			display: block;
+			width: 100%;
+			height: 100%;
+		}
+
+		.img-container {
+			width: 33.3333333333333%;
+			max-width: 250px;
+			margin-right: 20px;
+		}
+
+		.img-container-right {
+			margin-right: 0;
+			margin-left: 20px;
+		}
+
+		.flex-column {
+			-webkit-flex-direction: column;
+					flex-direction: column;
+		}
+
+		.hotel-logo-sm {
+			display: none;
+		}
+
+		.flex-container {
+			padding: 10px 2px;
+			-webkit-flex-direction: row;
+					flex-direction: row;
+			-webkit-align-items: center;
+					align-items: center;
+		}
+
+		.flex-container-reverse {
+			-webkit-flex-direction: row-reverse;
+					flex-direction: row-reverse;
+		}
+
+		.flex-content-right {
+			text-align: right;
+			padding-left: 0;
+			padding-right: 20px;
+		}
+
+		.sec {
+			text-align: left;
+		}
+		.flex-content {
+			-webkit-display: flex;
+					display: flex;
+			-webkit-flex-direction: column;
+					flex-direction: column;
+			padding-left: 20px;
+			margin-bottom: 10px;
+			width: 66.6666666666666%
+		}
+
+		.flex-content p {
+			margin-bottom: 8px;
+		}
+
+		.flex-content button {
+			margin-bottom: 0;
+		}
+
+		.ghost-btn:hover {
+			box-shadow: 0 3px 3px rgba(0,0,0,.4);
+			-webkit-transform: scale(1.02);
+					transform: scale(1.02);
+					transition: .4s ease;
+		}
+
+		.ghost-btn-black:hover {
+			background: #FFF;
+			color: #806A94;
+		}
+
+		.ghost-btn-white:hover {
+			background: #333;
+			color: #FFF;
+			border-color: #333;
+		}
+
+		.icon-container {
+				-webkit-justify-content: center;
+						justify-content: center;		
+		}
+
+		.img-responsive {
+			width: 75%;
+			height: 75%;
+			-webkit-transition: .4s ease;
+					transition: .4s ease;
+		}
+
+		.img-responsive:hover {
+			-webkit-transform: scale(1.05);
+					transform: scale(1.05);
+			-webkit-transform: rotate(20deg);
+					transform: rotate(20deg);
+		}
+
+		.reception-icon-lg {
+			box-sizing: none !important;
+			padding: 60px;
+			border-radius: 50%;
+			border-bottom: 5px solid rgba(189, 195, 199,0.7);
+			background: #FFF;
+			box-shadow: 0 3px 3px rgba(0,0,0,.4);
+		}
+
+
+	}
+
+/* END Min-Width: 700px ***************************/
+
+
+
+		@media screen and (min-width: 900px) {
+
+			/*SECTION STYLE RULES******************/
+
+			section {
+				text-align: none;
+			}
+
+			.sec .flex-container .flex-content h3 {
+				font-size: 3.85em;
+				letter-spacing: .05px;
+			}
+		}
+
+
+
+
+/* Min-Width: 900px ***************************/
+
+		@media screen and (min-width: 900px) {
+
+		/* HEADER & NAV STYLES ********************/
+
+		nav ul li a {
+			font-size: 1.08em;
+		}
+
+		.img-responsive {
+			width: 100%;
+			height: auto;
+
+		}
+
+
+		/* HERO STYLES ********************/
+
+		#hero h1 {
+			font-size: 6em;
+		}
+
+		/* FLEX CONTAINER STYLES **********/
+
+		.flex-container {
+			padding: 30px 2px;
+		}
