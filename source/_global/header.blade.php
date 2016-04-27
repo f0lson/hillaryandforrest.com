@@ -11,9 +11,9 @@
             </h1>
             <nav>
                 <ul>
-                    @foreach($nav as $item)
+                    @foreach($nav as $key => $item)
                         <li>
-                            <a href="{{ $item['link'] }}">{{ $item['title'] }}</a>
+                            <a href="{{ $item['link'] }}" class="@yield($key . '-nav-active')">{{ $item['title'] }}</a>
                         </li>
                     @endforeach
                 </ul>

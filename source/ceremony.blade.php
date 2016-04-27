@@ -2,6 +2,8 @@
 
 @section('meta-title', 'The Ceremony | Hillary &amp; Forrest')
 
+@section('ceremony-nav-active', 'active')
+
 @section('header-class', 'header-ceremony')
 
 @section('hero')

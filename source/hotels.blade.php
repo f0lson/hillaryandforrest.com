@@ -2,6 +2,8 @@
 
 @section('meta-title', 'Hotels | Hillary &amp; Forrest')
 
+@section('hotels-nav-active', 'active')
+
 @section('header-class', 'header-hotels')
 
 @section('hero')

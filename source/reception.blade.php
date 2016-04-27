@@ -2,6 +2,8 @@
 
 @section('meta-title', 'The Reception | Hillary &amp; Forrest')
 
+@section('reception-nav-active', 'active')
+
 @section('header-class', 'header-reception')
 
 @section('hero')

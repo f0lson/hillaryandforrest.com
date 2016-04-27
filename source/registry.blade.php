@@ -2,6 +2,8 @@
 
 @section('meta-title', 'Wedding Registries | Hillary &amp; Forrest')
 
+@section('registry-nav-active', 'active')
+
 @section('header-class', 'header-registry')
 
 @section('hero')
