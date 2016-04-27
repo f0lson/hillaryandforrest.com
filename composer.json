@@ -1,0 +1,7 @@
+{
+    "name": "fourrest/hillaaryandforrest",
+    "minimum-stability": "stable",
+    "require": {
+        "tightenco/jigsaw": "^0.5.0"
+    }
+}

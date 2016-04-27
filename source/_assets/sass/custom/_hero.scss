@@ -1,0 +1,61 @@
+#hero {
+  padding: 40px 0 75px;
+}
+#hero h1 {
+  font-size: 3.75em;
+  color: #FFF;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: .75;
+  margin: 0 auto;
+  letter-spacing: -2px;
+  text-shadow: 0 1px 1px #222;
+}
+
+.hero-headline-index,
+.hero-headline-ceremony {
+  padding-bottom: 24px;
+}
+
+.hero-headline-index sup {
+  font-size: 24px;
+  text-transform: none;
+}
+
+.hero-headline-index span {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.6em;
+}
+
+.hero-desc {
+  color: #FFF;
+  font-weight: 400;
+  margin: 0 auto 0;
+  font-size: 1.1em;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.hero-desc span {
+  color: #806A94;
+  font-weight: 300;
+  padding: 0;
+  font-size: 1.35em;
+}
+
+.caret {
+  padding: 0;
+  margin: 0;
+  width: 30%;
+  max-width: 90px;
+}
+
+.half-rule {
+  border: 1px solid #806A94;
+  width: 65%;
+  max-width: 400px;
+  margin: 3px auto;
+}

@@ -1,0 +1,52 @@
+.hotel-info {
+  display: flex;
+  flex-direction: column;
+  /*	max-width: 1000px;*/
+}
+
+.hotel-logo-sm,
+.hotel-logo-lg {
+  width: 33.3333333%;
+}
+
+.hotel-logo-sm {
+  max-width: 250px;
+  margin-top: 10px;
+}
+
+.hotel-logo-lg{
+  display: none;
+}
+
+.hotel-logo-concourse {
+  box-shadow: 0 3px 3px rgba(0,0,0,.4);
+  border-radius: 2px;
+}
+
+.sec-1 {
+  color: #222;
+}
+
+.sec-2 {
+  background: #806A94;
+  color: #FFF;
+}
+
+.sec {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.sec h3 {
+  text-transform: uppercase;
+  /*	border: 1px solid black;*/
+  font-family: "Open Sans Condensed", "Century Gothic", Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  line-height: 1;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.sec p {
+  margin-top: 10px;
+}
