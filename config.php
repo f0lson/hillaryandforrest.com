@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'production' => false,
+    'production' => true,
     'nav'        => [
         'ceremony'  => [
             'title' => 'Ceremony',
@@ -18,6 +18,10 @@ return [
         'registry'  => [
             'title' => 'Registry',
             'link'  => 'registry',
+        ],
+        'rsvp'      => [
+            'title' => 'RSVP',
+            'link'  => 'rsvp',
         ],
     ],
 ];
