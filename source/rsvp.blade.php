@@ -1,6 +1,6 @@
 @extends('_layouts.master')
 
-@section('meta-title', 'Hillary &amp; Forrest | July 2nd, 2016 | Madison, Wisconsin')
+@section('meta-title', 'RSVP | Hillary &amp; Forrest | July 2nd, 2016 | Madison, Wisconsin')
 
 @section('header-class', 'header-index')
 
