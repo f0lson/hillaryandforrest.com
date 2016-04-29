@@ -17,11 +17,11 @@ return [
         ],
         'registry'  => [
             'title' => 'Registry',
-            'link'  => 'registry',
+            'link'  => '/registry',
         ],
         'rsvp'      => [
             'title' => 'RSVP',
-            'link'  => 'rsvp',
+            'link'  => '/rsvp',
         ],
     ],
 ];
